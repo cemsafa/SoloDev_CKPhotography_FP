@@ -1,0 +1,116 @@
+/* -- BODY -- */
+#container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;  
+
+}
+nav {
+    display: block;
+    margin: auto;
+    width: 70%;  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-style: var(0, 1px, 0, 0);
+    /*border-bottom: solid .03em #E6E6E6;*/
+    text-align: center;
+    margin-bottom: .5em
+    ;
+   
+}
+nav ul {
+    padding: .5em;
+}
+nav li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2em;   
+  
+}
+nav li a {
+    text-decoration: none; 
+    color: #4A403A;
+    font-weight: lighter;
+
+}
+nav a:hover {
+    color: #D4AC2B;
+
+}
+footer {
+    display: block;
+    text-align: center;
+    padding: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    color: #4A403A;
+}
+footer a {
+    color: #4A403A;
+}
+footer a:hover {
+    color: #D4AC2B;
+
+}
+/* -- Slide Show --- */
+* {box-sizing: border-box}
+
+/* slide show container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* make the images invisible by default */
+.mySlides {
+    display: none;
+}
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 03px;
+    background-color: #B9AC92;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+
+}
+.enable, .dots:hover {
+    background-color: #D4AC2B;
+}
+
+ /* faint animation */
+ .fade {
+     animation-name: fade;
+     animation-duration: 1.4s;
+ }
+ @keyframes fade {
+     from {opacity: .5;}
+     to {opacity: 2;}
+     
+ }
+
+ 
+
+
+
