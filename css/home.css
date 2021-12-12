@@ -19,7 +19,6 @@ header img {
     width: 15%;
     margin-left: auto;
     margin-right: auto; 
-    margin-top: 2em;  
     display: block;  
 
 }
@@ -31,8 +30,11 @@ nav {
     border-left: none;
     border-right: none;
     border-style: var(0, 1px, 0, 0);
-    border-bottom: solid .03em #E6E6E6;
+    /*border-bottom: solid .03em #E6E6E6;*/
     text-align: center;
+    margin-bottom: .5em
+    ;
+   
 }
 nav ul {
     padding: .5em;
@@ -41,7 +43,7 @@ nav li {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 2em;   
-      
+  
 }
 nav li a {
     text-decoration: none; 
@@ -68,3 +70,47 @@ footer a:hover {
     color: #D4AC2B;
 
 }
+/* -- Slide Show --- */
+* {box-sizing: border-box}
+
+/* slide show container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* make the images invisible by default */
+.mySlides {
+    display: none;
+}
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 03px;
+    background-color: #B9AC92;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+
+}
+.enable, .dots:hover {
+    background-color: #D4AC2B;
+}
+
+ /* faint animation */
+ .fade {
+     animation-name: fade;
+     animation-duration: 1.4s;
+ }
+ @keyframes fade {
+     from {opacity: .5;}
+     to {opacity: 2;}
+     
+ }
+
+ 
+
+
+
