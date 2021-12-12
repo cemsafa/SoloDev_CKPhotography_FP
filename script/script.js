@@ -1,18 +1,28 @@
-var slidePosition = 1;
-showSlides(slidePosition);
+let currentSlide = 0;
+const slides = document.querySelectorAll(".slide")
+const dots = document.querySelectorAll('.dot')
 
-
-//image controls
-function currentSlide(n); {
-
+const init = (n) => {
+  slides.forEach((slide, index) => {
+    slide.style.display = "none"
+    dots.forEach((dot, index) => {
+      dot.classList.remove("active")
+    });
+  });
+  slides[n].style.display = "block"
+  dots[n].classList.add("active")
 }
-function SlideShow(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dots");
-    if (n > slides.length) {slidePosition = 1}
-    if (n < 1) {slidePosition = slides.length }
-    for ( i=0; i < slides.length; i++) {
-        slides[i].st
-    }
+document.addEventListener("DOMContentLoaded", init(currentSlide))
+const next = () => {
+  currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
+  init(currentSlide)
 }
+
+
+dots.forEach((dot, i) => {
+  dot.addEventListener("click", () => {
+    console.log(currentSlide)
+    init(i)
+    currentSlide = i
+  })
+})

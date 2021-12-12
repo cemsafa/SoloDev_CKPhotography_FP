@@ -14,7 +14,8 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
+    
+} 
 header img {
     width: 15%;
     margin-left: auto;
@@ -70,47 +71,66 @@ footer a:hover {
     color: #D4AC2B;
 
 }
-/* -- Slide Show --- */
-* {box-sizing: border-box}
 
-/* slide show container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+
+
+ /* -- Slide Show --- */
+
+
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-/* make the images invisible by default */
-.mySlides {
-    display: none;
-}
-.dots {
-    cursor: pointer;
-    height: 16px;
-    width: 16px;
-    margin: 03px;
-    background-color: #B9AC92;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.5s ease;
-
-}
-.enable, .dots:hover {
-    background-color: #D4AC2B;
+.dots-container .dot {
+  cursor: pointer;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  color: #333;
+  border-radius: 50%;
+  background-color: #dfd6ce;
 }
 
- /* faint animation */
- .fade {
-     animation-name: fade;
-     animation-duration: 1.4s;
- }
- @keyframes fade {
-     from {opacity: .5;}
-     to {opacity: 2;}
-     
- }
+.dots-container .dot.active {
+  border: 2px solid green;
+}
 
- 
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 
+body {
+  height: 100%;
+/*   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+}
+
+
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 2000px;
+  margin: auto;
+  position: relative;
+}
+
+.slide-container .slide {
+  display: none;
+  width: 100%;
+}
+
+.slide-container .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.slide-container .slide img {
+  width: 100%;
+}
 
 
