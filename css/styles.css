@@ -55,10 +55,11 @@ nav a:hover {
 footer {
     display: block;
     text-align: center;
-    padding: 3em;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
-    color: #4A403A;
+    color: #4A403A;  
+    
 }
 footer a {
     color: #4A403A;
@@ -214,8 +215,7 @@ div.connect {
     margin-right: auto;
     padding: 0%;
     margin-bottom: 3em;
-
-    
+    margin-top: 0%;    
 }
 .social {   
     width: 50%;
@@ -301,6 +301,10 @@ div.connect {
     font-weight: bold;
     margin-bottom: 3em;
 }
+.social a {
+    text-decoration: none;
+    font-size: 1em;
+}
 .thumb-container {
     display: flex;  
     max-width: 100%;  
@@ -309,6 +313,8 @@ div.connect {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
   }
   figure {
     display: block;
@@ -325,3 +331,9 @@ div.connect {
     width: 100%;
     padding-bottom: .5em;
   }
+  .hr2 {
+    border: 1px solid #f1f1f1;
+    width: 90%;
+    margin-top: 1.5em;
+  }
+  

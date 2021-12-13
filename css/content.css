@@ -55,10 +55,10 @@ nav a:hover {
 footer {
     display: block;
     text-align: center;
-    padding: 3em;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
-    color: #4A403A;
+    color: #4A403A;      
 }
 footer a {
     color: #4A403A;
@@ -149,7 +149,6 @@ td {
     background-color: #AAAAAA;
 }
 
-
 .social {   
     width: 50%;
     display: block;
@@ -159,6 +158,10 @@ td {
     width: 100%;
     padding: 0%;
 
+}
+.social a {
+    text-decoration: none;
+    font-size: 1em;
 }
 .ig {
     width: 100%;
@@ -241,5 +244,9 @@ div.connect {
 .social p {
     font-weight: bold;
     margin-bottom: 3em;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    width: 90%;
 }
 
