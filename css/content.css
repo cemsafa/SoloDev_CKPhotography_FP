@@ -108,3 +108,44 @@ figure img {
     padding-bottom: .5em;
 
 }
+table {  
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    table-layout: fixed;
+    background-color:#444941;
+}
+th, td{
+    border: solid #fff; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D4AC2B;
+    width: 25%;
+
+}th {
+    padding: 1em;
+    font-size: 1.3em;
+    color: #444941;
+}
+td {
+    padding: .5em;
+}
+.tr1 td{
+    background-color: #E6E6E6;
+}
+.tr2 td {
+    background-color: #AAAAAA;
+}
+.tr3 td{
+    background-color: #E6E6E6;
+}
+.tr4 td {
+    background-color: #AAAAAA;
+}
+
