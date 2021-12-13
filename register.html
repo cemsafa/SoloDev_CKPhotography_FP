@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>C & K Photography</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 
 <body>
     <!-- HEADER -->
@@ -30,38 +29,29 @@
     
     <!-- MAIN -->
     <main>
-        <div id="container">
-            <div class="slideshow-container fade">
-                
-                <!-- Slide Show Images-->
-
-                <div class="slide fade">
-                <img src="../images/slide1.jpeg" alt="">
+        <div id="container-credentials">
+            <form action="#">
+                <div class="container">
+                    <h1>Register</h1>
+                    <hr>
+                    
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                    
+                    <label for="password-confirm"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Confirm Password" name="password-confirm" id="password-confirm" required>
+                    <hr>
+                    
+                    <button type="submit" class="registerbtn">Register</button>
                 </div>
                 
-                <div class="slide fade">
-                <img src="../images/slide2.jpeg" alt="">
+                <div class="container login-register">
+                    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
                 </div>
-
-                <div class="slide fade">
-                <img src="../images/slide3.jpeg" alt="">
-                </div>
-
-                <div class="slide fade">
-                <img src="../images/slide4.jpeg" alt="">
-                </div>
-
-                
-             
-            </div>
-
-                <!-- Circle Dots-->
-                <div style="text-align: center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-            </div>
+            </form>
         </div>
     </main>
     
@@ -73,7 +63,6 @@
             </p>
         </div>
     </footer>
-    <script type="text/javascript" src="../script/scripts.js"></script>
+    <script type="text/javascript" src="../script/register.js"></script>
 </body>
-
 </html>
