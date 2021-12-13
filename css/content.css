@@ -71,62 +71,74 @@ footer a:hover {
     color: #D4AC2B;
 
 }
-
-/* -- Slide Show --- */
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+/* Wedding */
+main {
+    /*border: solid #D4AC2B;*/
+    width: 100%;
+    margin: auto;
+}
+.set1-container {
+   display: flex;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;     
+    padding: 0;
+}
+.set1-container img {
+    padding: 0;
+    width: 30%; 
+}
+.set1-names {    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 60%;
+    margin: auto;
+}
+.set1-names p {
+   padding: 0;
+  
+}
+.p1 {
+    margin-left: 9em;
+    font-size: 1em;
+    
+}
+.p2 {
+    margin-left: 17em;
+}
+.p3 {
+    margin-left: 18em;
 }
 
-.slide-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 2000px;
-  margin: auto;
-  position: relative;
+.set2-container {
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;  
+   padding-top: .5em;
 }
+.set2-container img {
+    padding: 0%;    
+    width: 30%;
 
-.slide-container .slide {
-  /*display: none;*/ /* this is supposed to be none, but slide is not working so i commented it for now */
-  width: 100%;
 }
-
-.slide-container .slide .fade {
-  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+.set2-names {    
+    display: flex;      
+    width: 60%;
+    margin: auto;    
+    
 }
-
-.slide-container .slide img {
-  width: 100%;
+.set2-names p {
+    padding: 0;
 }
-
-.dots-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+.p4{
+    margin-left: 9em;
 }
-
-.dots-container .dot {
-  cursor: pointer;
-  margin: 5px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #dfd6ce;
+.p5 {
+    margin-left:18em ;
 }
-.dots-container .dot:hover {
-  color: #D4AC2B;
+.p6 {
+    margin-left: 19em ;
 }
-* {
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-
