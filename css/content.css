@@ -108,3 +108,139 @@ figure img {
     padding-bottom: .5em;
 
 }
+table {  
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    table-layout: fixed;
+    background-color:#444941;
+}
+th, td{
+    border: solid #fff; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D4AC2B;
+    width: 25%;
+
+}th {
+    padding: 1em;
+    font-size: 1.3em;
+    color: #444941;
+}
+td {
+    padding: .5em;
+}
+.tr1 td{
+    background-color: #E6E6E6;
+}
+.tr2 td {
+    background-color: #AAAAAA;
+}
+.tr3 td{
+    background-color: #E6E6E6;
+}
+.tr4 td {
+    background-color: #AAAAAA;
+}
+
+
+.social {   
+    width: 50%;
+    display: block;
+    
+}
+.social img{
+    width: 100%;
+    padding: 0%;
+
+}
+.ig {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin-bottom: 0%; 
+    margin-bottom: 3em;
+
+    
+}
+.ig img {
+    width: 50%;
+   
+}
+.fb {   
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    
+}
+.fb img {
+    width: 48%;
+}
+.contact {   
+    width: 50%;
+}
+.call {
+    width: 100%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    
+}
+.call img {
+    width: 10%;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.email {
+    width: 100%;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email img {
+    width: 10%;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.connect {    
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    margin-bottom: 3em;
+    
+}
+.ig img:hover {
+    color: #D4AC2B;    
+}
+.contact p {
+    font-weight: bold;
+}
+.social p {
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+

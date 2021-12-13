@@ -89,10 +89,12 @@ footer a:hover {
     height: 16px;
     width: 16px;
     margin: 03px;
-    background-color: #B9AC92;
+    background-color: #AAAAAA;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.5s ease;
+    margin-top: .5em;
+    
     
 }
 .enable, .dot:hover {
@@ -110,14 +112,17 @@ footer a:hover {
     
 }
 
+/* Login Credentials*/
+
 #container-credentials {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
+        display: block;
 }
 
 input[type=email], input[type=password] {
-    width: 100%;
+    width: 96%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -133,6 +138,7 @@ input[type=email]:focus, input[type=password]:focus {
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
+    width: 100%;
 }
 
 a {
@@ -163,6 +169,11 @@ a {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .loginbtn:hover {
@@ -175,5 +186,112 @@ a {
 
 .login-register {
     background-color: #f1f1f1;
-    text-align: center;
+    text-align: center;    
+    
+}
+.login-register p {
+    font-size: .8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: #434343;
+}
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #434343;
+}
+.social {   
+    width: 50%;
+    display: block;
+    
+}
+.social img{
+    width: 100%;
+    padding: 0%;
+
+}
+.ig {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin-bottom: 0%; 
+    margin-bottom: 3em;
+
+    
+}
+.ig img {
+    width: 50%;
+   
+}
+.fb {   
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    
+}
+.fb img {
+    width: 48%;
+}
+.contact {   
+    width: 50%;
+}
+.call {
+    width: 100%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    
+}
+.call img {
+    width: 10%;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.email {
+    width: 100%;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email img {
+    width: 10%;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.connect {    
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    margin-bottom: 3em;
+    
+}
+.ig img:hover {
+    color: #D4AC2B;    
+}
+.contact p {
+    font-weight: bold;
+}
+.social p {
+    font-weight: bold;
+    margin-bottom: 3em;
 }
