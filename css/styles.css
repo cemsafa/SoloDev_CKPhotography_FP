@@ -84,7 +84,8 @@ footer a:hover {
 .mySlides {
     display: none;
 }
-.dots {
+
+.dot {
     cursor: pointer;
     height: 16px;
     width: 16px;
@@ -95,7 +96,7 @@ footer a:hover {
     transition: background-color 0.5s ease;
     
 }
-.enable, .dots:hover {
+.enable, .dot:hover {
     background-color: #D4AC2B;
 }
 
