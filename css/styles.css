@@ -14,7 +14,8 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
+    
+} 
 header img {
     width: 15%;
     margin-left: auto;
@@ -70,14 +71,16 @@ footer a:hover {
     color: #D4AC2B;
     
 }
-/* -- Slide Show --- */
-* {box-sizing: border-box}
 
-/* slide show container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+/* -- Slide Show --- */
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* make the images invisible by default */
