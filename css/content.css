@@ -8,7 +8,7 @@ header {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-   
+    
 }
 img {
     width: 100%;
@@ -21,7 +21,7 @@ header img {
     margin-left: auto;
     margin-right: auto; 
     display: block;  
-
+    
 }
 nav {
     display: block;
@@ -30,8 +30,8 @@ nav {
     text-align: center;
     margin-bottom: 0;
     padding: 0%;
-   
-
+    
+    
 }
 nav ul {
     padding: .5em;
@@ -40,17 +40,17 @@ nav li {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1em;   
-  
+    
 }
 nav li a {
     text-decoration: none; 
     color: #4A403A;
     font-weight: lighter;
-
+    
 }
 nav a:hover {
     color: #D4AC2B;
-
+    
 }
 footer {
     display: block;
@@ -65,7 +65,7 @@ footer a {
 }
 footer a:hover {
     color: #D4AC2B;
-
+    
 }
 /* Wedding */
 main {   
@@ -101,12 +101,12 @@ figure {
     margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;   
-  
+    
 }
 figure img {
     width: 100%;
     padding-bottom: .5em;
-
+    
 }
 table {  
     border-collapse: collapse;
@@ -127,7 +127,7 @@ th, td{
     text-align: center;
     background-color: #D4AC2B;
     width: 25%;
-
+    
 }th {
     padding: 1em;
     font-size: 1.3em;
@@ -157,7 +157,7 @@ td {
 .social img{
     width: 100%;
     padding: 0%;
-
+    
 }
 .social a {
     text-decoration: none;
@@ -173,12 +173,12 @@ td {
     padding: 0%;
     margin-bottom: 0%; 
     margin-bottom: 3em;
-
+    
     
 }
 .ig img {
     width: 50%;
-   
+    
 }
 .fb {   
     width: 100%;
@@ -210,11 +210,11 @@ td {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    
 }
 .email {
     width: 100%;
-  
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -225,7 +225,7 @@ td {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    
 }
 div.connect {    
     width: 35%;

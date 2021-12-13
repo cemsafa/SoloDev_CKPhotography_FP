@@ -30,8 +30,8 @@ nav {
     text-align: center;
     margin-bottom: 0;
     padding: 0%;
-   
-
+    
+    
 }
 nav ul {
     padding: .5em;
@@ -40,17 +40,17 @@ nav li {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1em;   
-  
+    
 }
 nav li a {
     text-decoration: none; 
     color: #4A403A;
     font-weight: lighter;
-
+    
 }
 nav a:hover {
     color: #D4AC2B;
-
+    
 }
 footer {
     display: block;
@@ -71,13 +71,13 @@ footer a:hover {
 
 /* -- Slide Show --- */
 @keyframes fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
 }
 
 /* make the images invisible by default */
@@ -95,12 +95,12 @@ footer a:hover {
     display: inline-block;
     transition: background-color 0.5s ease;   
     margin: .3em;
-   
+    
 }
 .center span{
     margin-top: 2em;
-
-
+    
+    
 }
 .enable, .dot:hover {
     background-color: #D4AC2B;
@@ -123,7 +123,7 @@ footer a:hover {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
-        display: block;
+    display: block;
 }
 
 input[type=email], input[type=password] {
@@ -219,13 +219,13 @@ div.connect {
 }
 .social {   
     width: 50%;
-   
+    
     
 }
 .social img{
     width: 100%;
     padding: 0%;
-
+    
 }
 .ig {
     width: 100%;
@@ -237,11 +237,11 @@ div.connect {
     padding: 0%;
     margin-bottom: 0%; 
     margin-bottom: 3em;
-
-    }
+    
+}
 .ig img {
     width: 50%;
-   
+    
 }
 .fb {   
     width: 100%;
@@ -258,7 +258,7 @@ div.connect {
 }
 .contact {   
     width: 50%;
-
+    
 }
 .call {
     width: 100%;    
@@ -274,11 +274,11 @@ div.connect {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    
 }
 .email {
     width: 100%;
-  
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -289,7 +289,7 @@ div.connect {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    
 }
 .ig img:hover {
     color: #D4AC2B;    
@@ -315,8 +315,8 @@ div.connect {
     margin-bottom: 2em;
     margin-bottom: 1em;
     margin-top: 1em;
-  }
-  figure {
+}
+figure {
     display: block;
     text-align: center; 
     width: 25%;
@@ -325,15 +325,14 @@ div.connect {
     margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;   
-  
-  }
-  figure img {
+    
+}
+figure img {
     width: 100%;
     padding-bottom: .5em;
-  }
-  .hr2 {
+}
+.hr2 {
     border: 1px solid #f1f1f1;
     width: 90%;
     margin-top: 1.5em;
-  }
-  
+}

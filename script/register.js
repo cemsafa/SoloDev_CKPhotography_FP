@@ -2,11 +2,11 @@ var password = document.getElementById("password");
 var confirm_password = document.getElementById("password-confirm");
 
 function validatePassword(){
-  if(password.value != confirm_password.value) {
-    confirm_password.setCustomValidity("Passwords Don't Match");
-  } else {
-    confirm_password.setCustomValidity('');
-  }
+    if(password.value != confirm_password.value) {
+        confirm_password.setCustomValidity("Passwords Don't Match");
+    } else {
+        confirm_password.setCustomValidity('');
+    }
 }
 
 password.onchange = validatePassword;
