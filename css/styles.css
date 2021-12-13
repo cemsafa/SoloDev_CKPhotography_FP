@@ -308,9 +308,9 @@ div.connect {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;    
-}
-figure {
+    margin-bottom: 2em;
+  }
+  figure {
     display: block;
     text-align: center; 
     width: 25%;
@@ -320,13 +320,8 @@ figure {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;   
   
-}
-figure img {
+  }
+  figure img {
     width: 100%;
     padding-bottom: .5em;
-}
-
-@media only sreen and (max-width: 420px) {
-
-}
-
+  }
