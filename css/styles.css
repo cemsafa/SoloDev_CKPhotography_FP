@@ -336,3 +336,57 @@ figure img {
     width: 90%;
     margin-top: 1.5em;
 }
+@media only screen and (min-width: 700px) {
+    .topNav {
+        display: none;
+    }
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+    .topNav {        
+      
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+        margin-bottom: em;
+    }
+    .topNav ul {
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 1em;
+    }
+    
+    .topNav li {
+        float: left;
+        list-style-type: none;
+        width: 49%;
+        margin-left: 5em;
+        margin-right: auto;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: .7em;       
+        
+    }
+    .topNav li a {
+        color: #4A403A; 
+    }
+    .header img {
+        width: 100%;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main {
+        margin-top: em;
+
+    }
+    
+    
+}
+    
+
