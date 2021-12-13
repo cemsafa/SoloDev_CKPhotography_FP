@@ -19,9 +19,6 @@ const next = () => {
   currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
   init(currentSlide)
 }
-setInterval(() => {
-  next()
-}, 5000);
 
 
 dots.forEach((dot, i) => {

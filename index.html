@@ -4,63 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C & K Photography</title>
+    <title>Home</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body>
-    <!-- HEADER -->
-    <header>
-        <a href="index.html"><img src="../images/cklogo.png" alt="C & K Photgraphy" class="header-logo"></a>
-    </header>
-    
-    <!-- NAVIGATION -->
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="wedding.html">WEDDING</a></li>
-            <li><a href="engagement.html">ENGAGEMENT</a></li>
-            <li><a href="events.html">MEMORABLE EVENTS</a></li>
-            <li><a href="package.html">PACKAGE & RATES</a></li>
-        </ul>
-    </nav>
-    
-    <!-- MAIN -->
-    <main>
-        <div id="container">
-            <div class="slideshow-container fade">
-                
-                <!-- Slide Show Images-->
-                
-                <div class="mySlides">
-                    <img src="../images/slide-img1.jpeg" style="width: 100%;">
-                </div>
-                
-                <div class="mySlides">
-                    <img src="../images/slide-img2.jpeg"  style="width: 100%;">
-                </div>
-                
-                <div class="mySlides">
-                    <img src="../images/slide-img3.jpeg" style="width: 100%;">
-                </div>
-                
-                <!-- Circle Dots-->
-                <div style="text-align: center;">
-                    <span class="dots" onclick="currentSlide1(1)"></span>
-                    <span class="dots" onclick="currentSlide2(2)"></span>
-                    <span class="dots" onclick="currentSlide3(3)"></span>
-                </div>
-            </div>
-        </div>
-    </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div id="copyright">
-            <p>&copy; Copyright 2021. All Rights Reserved. <br>
-                <a href="mailto:inquiry@ckphotography">inquiry@ckphotography.com</a>
-            </p>
-        </div>
-    </footer>
+<body>
+    <div id="container">
+
+        <!-- HEADER -->
+        <header>
+            <a href="index.html"><img src="../images/cklogo.png" alt="C & K Photgraphy" class="header-logo"></a>
+        </header>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="wedding.html">WEDDING</a></li>
+                <li><a href="engagement.html">ENGAGEMENT</a></li>
+                <li><a href="other-events.html">MEMORABLE EVENTS</a></li>
+                <li><a href="package.html">PACKAGE & RATES</a></li>
+            </ul>
+        </nav>
+        <main>
+            <script src="../script/scripts.js"></script> 
+        
+            <div class="slide-container">
+
+                <!-- Slide Show Images-->
+
+                <div class="slide fade">
+                <img src="../images/slide1.jpeg" alt="">
+                </div>
+                
+                <div class="slide fade">
+                <img src="../images/slide2.jpeg" alt="">
+                </div>
+
+                <div class="slide fade">
+                <img src="../images/slide3.jpeg" alt="">
+                </div>
+
+                <div class="slide fade">
+                <img src="../images/slide4.jpeg" alt="">
+                </div>
+
+                
+             
+            </div>
+
+                <!-- Circle Dots-->
+                <div class="dots-container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                
+                </div>        
+       
+            </div>
+             
+
+        </main>    
+    
+        <footer>
+            <div id="copyright">
+                <p>&copy; Copyright 2021. All Rights Reserved. <br>
+                    <a href="mailto:inquiry@ckphotography">inquiry@ckphotography.com</a></p>
+        
+            </div>
+        
+        </footer>
+    </div> 
+  
+    
 </body>
+
 </html>
