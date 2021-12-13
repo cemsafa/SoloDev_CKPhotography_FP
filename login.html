@@ -29,30 +29,26 @@
     
     <!-- MAIN -->
     <main>
-        <div id="container">
-            <div class="slideshow-container fade">
-                
-                <!-- Slide Show Images-->
-                
-                <div class="mySlides">
-                    <img src="../images/slide-img1.jpeg" style="width: 100%;">
+        <div id="container-credentials">
+            <form action="#">
+                <div class="container">
+                    <h1>Login</h1>
+                    <hr>
+                    
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                    <hr>
+                    
+                    <button type="submit" class="loginbtn">Login</button>
                 </div>
                 
-                <div class="mySlides">
-                    <img src="../images/slide-img2.jpeg"  style="width: 100%;">
+                <div class="container login-register">
+                    <p>Don't have an account? <a href="register.html">Register</a>.</p>
                 </div>
-                
-                <div class="mySlides">
-                    <img src="../images/slide-img3.jpeg" style="width: 100%;">
-                </div>
-                
-                <!-- Circle Dots-->
-                <div style="text-align: center;">
-                    <span class="dots" onclick="currentSlide1(1)"></span>
-                    <span class="dots" onclick="currentSlide2(2)"></span>
-                    <span class="dots" onclick="currentSlide3(3)"></span>
-                </div>
-            </div>
+            </form>
         </div>
     </main>
     
