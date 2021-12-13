@@ -86,16 +86,20 @@ footer a:hover {
 
 .dot {
     cursor: pointer;
-    height: 16px;
-    width: 16px;
-    margin: 03px;
+    height: 14px;
+    width: 14px;
+    padding: .1em;
     background-color: #AAAAAA;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.5s ease;
-    margin-top: .5em;
-    
-    
+    transition: background-color 0.5s ease;   
+    margin: .3em;
+   
+}
+.center span{
+    margin-top: 2em;
+
+
 }
 .enable, .dot:hover {
     background-color: #D4AC2B;
@@ -202,9 +206,20 @@ label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #434343;
 }
+
+div.connect {    
+    width: 35%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    margin-bottom: 3em;
+
+    
+}
 .social {   
     width: 50%;
-    display: block;
+   
     
 }
 .social img{
@@ -223,8 +238,7 @@ label {
     margin-bottom: 0%; 
     margin-bottom: 3em;
 
-    
-}
+    }
 .ig img {
     width: 50%;
    
@@ -244,6 +258,7 @@ label {
 }
 .contact {   
     width: 50%;
+
 }
 .call {
     width: 100%;    
@@ -276,15 +291,6 @@ label {
     margin-right: auto;
 
 }
-.connect {    
-    width: 50%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0%;
-    margin-bottom: 3em;
-    
-}
 .ig img:hover {
     color: #D4AC2B;    
 }
@@ -295,3 +301,32 @@ label {
     font-weight: bold;
     margin-bottom: 3em;
 }
+.thumb-container {
+    display: flex;  
+    max-width: 100%;  
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;    
+}
+figure {
+    display: block;
+    text-align: center; 
+    width: 25%;
+    padding-bottom: 0%;
+    margin: 1%;
+    margin-top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;   
+  
+}
+figure img {
+    width: 100%;
+    padding-bottom: .5em;
+}
+
+@media only sreen and (max-width: 420px) {
+
+}
+
