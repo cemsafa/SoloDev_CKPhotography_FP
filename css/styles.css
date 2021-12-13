@@ -295,3 +295,27 @@ label {
     font-weight: bold;
     margin-bottom: 3em;
 }
+.thumb-container {
+    display: flex;  
+    max-width: 100%;  
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;    
+  }
+  figure {
+    display: block;
+    text-align: center; 
+    width: 25%;
+    padding-bottom: 0%;
+    margin: 1%;
+    margin-top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;   
+  
+  }
+  figure img {
+    width: 100%;
+    padding-bottom: .5em;
+  }
