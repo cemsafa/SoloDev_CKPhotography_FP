@@ -26,16 +26,12 @@ header img {
 nav {
     display: block;
     margin: auto;
-    width: 70%;  
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-style: var(0, 1px, 0, 0);
-    /*border-bottom: solid .03em #E6E6E6;*/
+    width: 100%;     
     text-align: center;
-    margin-bottom: .5em
-    ;
-    
+    margin-bottom: 0;
+    padding: 0%;
+   
+
 }
 nav ul {
     padding: .5em;
@@ -43,17 +39,18 @@ nav ul {
 nav li {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1em;
+    padding: 1em;   
+  
 }
 nav li a {
     text-decoration: none; 
     color: #4A403A;
     font-weight: lighter;
-    
+
 }
 nav a:hover {
     color: #D4AC2B;
-    
+
 }
 footer {
     display: block;
